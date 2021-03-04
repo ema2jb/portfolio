@@ -1,0 +1,102 @@
+body{
+	background-color:#dda0dd;
+	padding:40px;
+	padding-top:0px;
+}
+
+img{
+	width:200px;
+	border-radius:50px;
+}
+
+.firstdiv{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+table, th, td{
+	border:1% solid yellow;
+	border-collapse: collapse;
+}
+
+
+#seconddiv{
+	width:50%;
+	margin-left:10%;
+}
+
+#shortcut{
+	width:70%;
+	padding:10px;
+	border-radius:20px;
+	/*padding-left: 150px;*/
+	
+}
+
+button{
+	display:inline-block;
+	height: 50px;
+	background-color:#98fb98;
+	border-style:solid;
+	border-radius:10px;
+	border-color: black;
+	margin:5px;
+}
+
+button:hover{
+	background-color: #adff2f;
+	border-color: green;
+	border-radius: 50%;
+}
+
+#profsum{
+	text-align:center;
+}
+
+p{
+	font-family: sans-serif;
+	font-size:90%;
+}
+
+section{
+	background-color:#98fb98;
+	padding:3%;
+	border-radius:20px;
+	display:none;
+}
+
+#home{
+	background-color:#98fb98;
+	padding:20px;
+	margin-bottom: 20px;
+	border-radius:10px;
+	display:block;
+}
+
+
+li{
+	list-style: none;
+	line-height: 200%;
+}
+
+@keyframes grow{
+	0% {
+		font-size: 90%;
+	}
+
+	50% {
+		font-size: 150%;
+	}
+
+	100% {
+		font-size: 90%;
+	}
+}
+
+h2{
+	animation-name:grow;
+	animation-duration: 2s;
+	animation-fill-mode:forwards;
+	animation-iteration-count:infinite;
+}
+
