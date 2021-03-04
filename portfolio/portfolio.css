@@ -1,12 +1,12 @@
 body{
-	background-color:#dda0dd;
-	padding:40px;
-	padding-top:0px;
+	background-color:#d8bfd8;
+	padding:1%;
+	padding-top:0%;
 }
 
 img{
-	width:200px;
-	border-radius:50px;
+	width:18%;
+	border-radius:10%;
 }
 
 .firstdiv{
@@ -14,39 +14,55 @@ img{
 	flex-wrap: wrap;
 }
 
-table, th, td{
-	border:1% solid yellow;
-	border-collapse: collapse;
-}
-
-
 #seconddiv{
 	width:50%;
 	margin-left:10%;
 }
 
 #shortcut{
-	width:70%;
-	padding:10px;
-	border-radius:20px;
-	/*padding-left: 150px;*/
-	
+	margin:2%;
+
+}
+
+
+table{
+    width:70%;
+    padding:3%;
+    margin: 0 auto;
+    margin-top:2%;
+}
+
+caption{
+    margin-bottom: 2%;
+    font-size: 150%;
+    font-weight:bolder;
+}
+th{
+    border-radius:20px;
+    padding:3%;
+    background-color:#dda0dd;
+}
+
+td,th{
+    border-radius:20px;
+    text-align:center;
+    font-weight: bold;
+    background-color:#dda0dd;
 }
 
 button{
 	display:inline-block;
-	height: 50px;
+	padding:1%;
 	background-color:#98fb98;
 	border-style:solid;
-	border-radius:10px;
+	border-radius:20%;
 	border-color: black;
-	margin:5px;
+	margin:1%;
 }
 
-button:hover{
-	background-color: #adff2f;
-	border-color: green;
-	border-radius: 50%;
+button:hover, button:active{
+	background-color: #a9a9a9;
+	border-color: #d8bfd8;
 }
 
 #profsum{
@@ -55,21 +71,24 @@ button:hover{
 
 p{
 	font-family: sans-serif;
-	font-size:90%;
+	font-size:120%;
 }
 
 section{
-	background-color:#98fb98;
+	background-color:#a9a9a9;
 	padding:3%;
 	border-radius:20px;
 	display:none;
 }
+#firstsec{
+	background-color: #a9a9a9;
+}
 
 #home{
-	background-color:#98fb98;
-	padding:20px;
-	margin-bottom: 20px;
-	border-radius:10px;
+	background-color:#a9a9a9;
+	padding:2%;
+	margin-bottom: 2%;
+	border-radius:1%;
 	display:block;
 }
 
@@ -100,3 +119,52 @@ h2{
 	animation-iteration-count:infinite;
 }
 
+@media(max-width:500px){
+	@keyframes grow{
+	0% {
+		font-size: 90%;
+	}
+
+	50% {
+		font-size: 90%;
+	}
+
+	100% {
+		font-size: 90%;
+	}
+}
+
+h2{
+	animation-name:grow;
+	animation-duration: 3s;
+	animation-fill-mode:forwards;
+	animation-iteration-count:infinite;
+}
+
+img{
+	width:40%;
+}
+#seconddiv{
+	width:30%;
+	text-align:center;
+}
+
+td,th{
+	border-radius:0%;
+	font-weight: normal;
+	width:100%;
+	padding:2%;
+	border-style:solid;
+	text-align:left;
+}
+
+table{
+	background-color:#dda0dd;
+	border-collapse:collapse;
+	width:100%;
+}
+
+h2{
+	font-size:200%;
+}
+}
