@@ -1,6 +1,6 @@
 img{
     width:100%;
-    margin-bottom: 10%;
+   
 }
 
 .header{
@@ -41,4 +41,11 @@ section{
     background-color: #d1c4e9;
     margin:0% auto;
     padding:20px 0px;
+}
+
+
+@media (max-width: 500px){
+  img{
+      width:150%
+  }
 }
