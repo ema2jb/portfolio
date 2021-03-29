@@ -77,7 +77,7 @@ section{
     border-radius:0px;
 }
 .fa-envelope{
-    background:#ff000;
+    background:red;
     color:white;
 }
 
@@ -120,7 +120,7 @@ section{
     .intro{
         padding-top:50%;
     }
-    .fa-facebook, .fa-twitter, .fa-linkedin{
+    .fa-facebook, .fa-twitter, .fa-linkedin, fa-envelope{
     padding:5%;
     font-size:30px;
     width:5%;
