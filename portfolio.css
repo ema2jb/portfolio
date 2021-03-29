@@ -116,5 +116,13 @@ section{
     .intro{
         padding-top:50%;
     }
+    .fa-facebook, .fa-twitter, .fa-linkedin{
+    padding:5%;
+    font-size:30px;
+    width:5%;
+    text-align:center;
+    text-decoration: none;
+    border-radius:50%;
+}
 
 }
