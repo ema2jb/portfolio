@@ -21,14 +21,8 @@ img{
     /*background-image: url('bckgrd.png')
     background-repeat: no-repeat;
     background-position: right;;*/
-    min-height:600px;
+    min-height:200px;
 }
-
-.intro{
-    padding:7%;
-    margin-top: 5%;
-}
-
 
 section{
     background-color: #ffe5b4;
@@ -81,4 +75,46 @@ section{
     background:#3b5998;
     color:white;
     border-radius:0px;
+}
+
+.font-white{
+    color:white;
+}
+
+.font-yellow{
+    color: orange;
+}
+
+.font-red{
+    color:rgba(255, 0, 0, 0.801);
+    font-size:200%;
+    font-weight: bolder;
+}
+
+.font-blue{
+    color:blue;
+    font-size:200%;
+    font-weight: bolder;
+}
+
+.wd{
+    color: orange;
+    font-size:150%;
+    font-weight: bolder;
+}
+
+.intro{
+    padding-left:10%;
+    margin-top:20%;
+}
+
+@media(max-width:500px){
+
+    .row-header{
+        min-height:600px;
+    }
+    .intro{
+        padding-top:50%;
+    }
+
 }
