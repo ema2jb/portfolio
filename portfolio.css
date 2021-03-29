@@ -1,26 +1,26 @@
 img{
-    width:100%;
+    width:90%;
+    margin-top:20%;
+    border-radius:10%;
+    
 }
 
 .header{
-   background-color: #90ee90;
+   background-color:#722f37;
     margin-bottom: 0px;
-    background-image: url('bckgrd.png');
     background-repeat: no-repeat;
     background-position: right;
+    
+    
    
 }
-.image{
-     background-image: url('bckgrd.png');
+.front{
+    margin-top: 20%;
 }
- 
 
 .row-header{
     margin:0px auto;
     padding:0px auto;
-    /*background-image: url('bckgrd.png')
-    background-repeat: no-repeat;
-    background-position: right;;*/
     min-height:200px;
 }
 
@@ -44,9 +44,10 @@ section{
 
 }
 .footer{
-    background-color: #d1c4e9;
+    background-color: #722f37;
     margin:0% auto;
     padding:20px 0px;
+    color:white;
 }
 
 .fa-facebook, .fa-twitter, .fa-linkedin{
@@ -76,13 +77,9 @@ section{
     color:white;
     border-radius:0px;
 }
-.fa-envelope{
-    background:red;
-    color:white;
-}
 
 .font-white{
-    color:white;
+    color:grey;
 }
 
 .font-yellow{
@@ -90,8 +87,8 @@ section{
 }
 
 .font-red{
-    color:rgba(255, 0, 0, 0.801);
-    font-size:200%;
+    color:#ffe5b4;
+    font-size:150%;
     font-weight: bolder;
 }
 
@@ -112,21 +109,19 @@ section{
     margin-top:20%;
 }
 
+.navbar{
+    background-color: #722f37;
+}
+
+a, .nav-link{
+    color:white;
+}
+
 @media(max-width:500px){
 
-    .row-header{
-        min-height:600px;
+    img{
+        margin-top:20%;
+        border-radius:50%;
     }
-    .intro{
-        padding-top:50%;
-    }
-    .fa-facebook, .fa-twitter, .fa-linkedin, fa-envelope{
-    padding:5%;
-    font-size:30px;
-    width:5%;
-    text-align:center;
-    text-decoration: none;
-    border-radius:50%;
-}
 
 }
