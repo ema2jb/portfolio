@@ -25,8 +25,12 @@ img{
 }
 
 section{
-    background-color: #ffe5b4;
+    background-color: white;
     color:grey;
+}
+
+section h2{
+    color:white;
 }
 
 .cert{
