@@ -28,6 +28,9 @@ section{
     background-color: #ffe5b4;
     color:#c0c0c0;
 }
+section h2{
+    color:black;
+}
 
 .cert{
     padding:4%;
