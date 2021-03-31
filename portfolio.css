@@ -6,7 +6,7 @@ img{
 }
 
 .header{
-   background-color:#8c0404;
+   background-color:#722f37;
     margin-bottom: 0px;
     background-repeat: no-repeat;
     background-position: right;
@@ -25,17 +25,13 @@ img{
 }
 
 section{
-    background-color: #bc2404;
-    color:black;
-}
-
-section h2{
-    color:black;
+    background-color: #ffe5b4;
+    color:grey;
 }
 
 .cert{
     padding:4%;
-    background-color: #fb1d0c;
+    background-color: #722f37;
     margin:1%;
     min-height:100px;
     
@@ -49,7 +45,7 @@ section h2{
 
 }
 .footer{
-    background-color: #8c0404;
+    background-color: #722f37;
     margin:0% auto;
     padding:20px 0px;
     color:white;
@@ -115,7 +111,7 @@ section h2{
 }
 
 .navbar{
-    background-color: #8c0404;
+    background-color: #722f37;
 }
 
 a, .nav-link{
